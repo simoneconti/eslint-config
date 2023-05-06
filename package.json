@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/simoneconti/eslint-config/issues"
   },
-  "homepage": "https://github.com/simoneconti/eslint-config#readme"
+  "homepage": "https://github.com/simoneconti/eslint-config#readme",
+  "devDependencies": {
+    "@simoneconti/prettier-config": "^1.0.4"
+  }
 }
