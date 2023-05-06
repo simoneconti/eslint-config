@@ -2,18 +2,46 @@
   "name": "@simoneconti/eslint-config",
   "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "homepage": "https://github.com/simoneconti/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/simoneconti/eslint-config/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/simoneconti/eslint-config.git"
   },
-  "author": "Simone Conti",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/simoneconti/eslint-config/issues"
+  "author": "Simone Conti",
+  "main": "index.js",
+  "scripts": {
+    "checkUpdates": "npx npm-check-updates",
+    "checkUpdates:update": "npx npm-check-updates -u",
+    "clean": "npx --ignore-existing --quiet rimraf package-lock.json node_modules",
+    "lint": "esw ./ --ext .js,.ts",
+    "sort": "npx sort-package-json"
   },
-  "homepage": "https://github.com/simoneconti/eslint-config#readme",
+  "dependencies": {
+    "@tanstack/eslint-plugin-query": "^4.29.4",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "eslint": "^8.40.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-sort-destructure-keys": "^1.5.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "eslint-plugin-typescript-sort-keys": "^2.3.0"
+  },
   "devDependencies": {
-    "@simoneconti/prettier-config": "^1.0.4"
+    "@simoneconti/prettier-config": "^1.0.4",
+    "eslint-watch": "^8.0.0",
+    "npm-check-updates": "^16.10.9",
+    "sort-package-json": "^2.4.1"
   }
 }
