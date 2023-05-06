@@ -1,0 +1,16 @@
+{
+  "name": "@simoneconti/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simoneconti/eslint-config.git"
+  },
+  "author": "Simone Conti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simoneconti/eslint-config/issues"
+  },
+  "homepage": "https://github.com/simoneconti/eslint-config#readme"
+}
